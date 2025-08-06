@@ -56,11 +56,7 @@ const Home = () => {
               <span className="card-sub">Technologies I know</span>
               <p>C, C++, Python, SQL, HTML, CSS, Machine Learning, Embedded Systems</p>
             </li>
-            <li className="card">
-              <h2>Experience</h2>
-              <span className="card-sub">Leadership Roles</span>
-              <p>Logistics Head - Vasavi MUN<br />Captain - ECE Cricket Team<br />Head - Street Cause</p>
-            </li>
+            
           </ul>
         </section>
 

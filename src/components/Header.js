@@ -68,7 +68,21 @@ const Header = () => {
                   Contact
                 </Link>
               </li>
+
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="https://drive.google.com/file/d/1jIP4R60GZkaIkCBJjpwRwz6CKo7hIgxl/view?usp=sharing"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Resume
+                    </a>
+                  </li>
+
+
               <li>
+
                     <div className="social-links">
                   <a href="https://www.linkedin.com/in/rushikesh-karupothula-2a41b3270/" target="_blank" rel="noopener noreferrer">
                  <i className="fab fa-linkedin"></i>

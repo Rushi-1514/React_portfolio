@@ -28,21 +28,10 @@ const Skills = () => {
               <li>Machine Learning</li>
               <li>React.js</li>
               <li>Node.js</li>
-              <li>Arduino</li>
+              <li>Express</li>
             </ul>
           </li>
 
-          <li className="card">
-            <h2>Hardware & Systems</h2>
-            <span className="card-sub">Electronics & IoT</span>
-            <ul>
-              <li>STM32</li>
-              <li>IR Sensors</li>
-              <li>Servo Motors</li>
-              <li>System on Chip (SoC)</li>
-              <li>IoT Development</li>
-            </ul>
-          </li>
         </ul>
       </section>
     </div>
