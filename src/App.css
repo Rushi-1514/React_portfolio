@@ -350,6 +350,113 @@ footer {
   color: #ffffff;
 }
 
+/* ================== ENHANCED PROJECT STYLES ================== */
+
+/* Section Headings */
+.project-section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #00bcd4;
+  text-align: center;
+  margin: 3rem 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.project-section-title i,
+.project-section-title span {
+  font-size: 1.8rem;
+}
+
+/* Project Card Layout */
+.project-category {
+  margin-top: 2rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: 2rem;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 3rem;
+}
+
+.project-card {
+  background-color: #2a2a2a;
+  padding: 1.8rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #444;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 188, 212, 0.2);
+}
+
+.project-card h3 {
+  color: white;
+  font-size: 1.25rem;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+}
+
+.project-card .tech {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.project-card p {
+  color: #ddd;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.project-card p strong {
+  color: white;
+}
+
+.project-card a {
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+  color: #26c6da;
+}
+
+/* Single Column Grid (for 1 project) */
+.project-grid.single {
+  grid-template-columns: 1fr;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .project-section-title {
+    font-size: 1.6rem;
+  }
+
+  .project-card {
+    padding: 1.2rem;
+  }
+
+  .project-card h3 {
+    font-size: 1.1rem;
+  }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .page {

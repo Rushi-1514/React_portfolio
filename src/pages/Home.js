@@ -48,7 +48,15 @@ const Home = () => {
               <Link to="/projects" className="hover-link"> <h2>Projects</h2></Link>
                
               <span className="card-sub">Hands-on Work</span>
-              <p>• Breast Cancer Detection<br />• Maze Solving Robot<br />• Animatronic Eye<br />• Secure Data Logging with STM32</p>
+                          <p>
+                • Breast Cancer Detection<br />
+                • Maze Solving Robot<br />
+                • Secure Data Logging with STM32<br />
+                • Blog Website<br />
+                • Book Collection Platform<br />
+                • To-Do List App
+              </p>
+
             </li>
            
              <li className="card">
